@@ -1,0 +1,74 @@
+CRITICAL - 2022-06-14 18:22:54 --> Access to undeclared static property Kint\Kint::$max_depth
+#0 D:\laragon\www\siskeudes\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->initializeKint()
+#1 D:\laragon\www\siskeudes\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#2 D:\laragon\www\siskeudes\index.php(35): require('D:\\laragon\\www\\...')
+#3 {main}
+CRITICAL - 2022-06-14 18:23:33 --> Access to undeclared static property Kint\Kint::$max_depth
+#0 D:\laragon\www\siskeudes\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->initializeKint()
+#1 D:\laragon\www\siskeudes\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#2 D:\laragon\www\siskeudes\index.php(35): require('D:\\laragon\\www\\...')
+#3 {main}
+CRITICAL - 2022-06-14 18:23:52 --> Access to undeclared static property Kint\Kint::$max_depth
+#0 D:\laragon\www\siskeudes\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->initializeKint()
+#1 D:\laragon\www\siskeudes\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#2 D:\laragon\www\siskeudes\index.php(35): require('D:\\laragon\\www\\...')
+#3 {main}
+CRITICAL - 2022-06-14 18:24:04 --> Access to undeclared static property Kint\Kint::$max_depth
+#0 D:\laragon\www\siskeudes\system\CodeIgniter.php(182): CodeIgniter\CodeIgniter->initializeKint()
+#1 D:\laragon\www\siskeudes\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#2 D:\laragon\www\siskeudes\index.php(35): require('D:\\laragon\\www\\...')
+#3 {main}
+CRITICAL - 2022-06-14 18:25:29 --> Table 'siskeudes.user' doesn't exist
+#0 D:\laragon\www\siskeudes\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\siskeudes\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\siskeudes\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\siskeudes\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\siskeudes\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\siskeudes\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\siskeudes\modules\Home\Controllers\Login.php(51): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\siskeudes\system\CodeIgniter.php(832): Modules\Home\Controllers\Login->validasiLogin()
+#8 D:\laragon\www\siskeudes\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Home\Controllers\Login))
+#9 D:\laragon\www\siskeudes\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\siskeudes\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-14 18:25:50 --> Table 'siskeudes.user' doesn't exist
+#0 D:\laragon\www\siskeudes\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\laragon\www\siskeudes\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\siskeudes\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\siskeudes\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\siskeudes\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\siskeudes\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 D:\laragon\www\siskeudes\modules\Home\Controllers\Login.php(51): CodeIgniter\BaseModel->first()
+#7 D:\laragon\www\siskeudes\system\CodeIgniter.php(832): Modules\Home\Controllers\Login->validasiLogin()
+#8 D:\laragon\www\siskeudes\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Home\Controllers\Login))
+#9 D:\laragon\www\siskeudes\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\siskeudes\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-14 18:39:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::on_duplicate()
+#0 D:\laragon\www\siskeudes\modules\Input\Controllers\Belanja.php(83): App\Controllers\BaseController->insert_duplicate('data_bukti_bela...', Array)
+#1 D:\laragon\www\siskeudes\system\CodeIgniter.php(832): Modules\Input\Controllers\Belanja->addBukti()
+#2 D:\laragon\www\siskeudes\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Input\Controllers\Belanja))
+#3 D:\laragon\www\siskeudes\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\siskeudes\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 18:39:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::on_duplicate()
+#0 D:\laragon\www\siskeudes\modules\Input\Controllers\Belanja.php(83): App\Controllers\BaseController->insert_duplicate('data_bukti_bela...', Array)
+#1 D:\laragon\www\siskeudes\system\CodeIgniter.php(832): Modules\Input\Controllers\Belanja->addBukti()
+#2 D:\laragon\www\siskeudes\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Input\Controllers\Belanja))
+#3 D:\laragon\www\siskeudes\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\siskeudes\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 18:40:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::on_duplicate()
+#0 D:\laragon\www\siskeudes\modules\Input\Controllers\Belanja.php(103): App\Controllers\BaseController->insert_duplicate('data_bukti_bela...', Array)
+#1 D:\laragon\www\siskeudes\system\CodeIgniter.php(832): Modules\Input\Controllers\Belanja->addCatatan()
+#2 D:\laragon\www\siskeudes\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Input\Controllers\Belanja))
+#3 D:\laragon\www\siskeudes\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\siskeudes\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 18:44:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::on_duplicate()
+#0 D:\laragon\www\siskeudes\modules\mapping\Controllers\Map_belanja.php(47): App\Controllers\BaseController->insert_duplicate('mapping_bukti_b...', Array)
+#1 D:\laragon\www\siskeudes\system\CodeIgniter.php(832): Modules\Mapping\Controllers\Map_belanja->inputData()
+#2 D:\laragon\www\siskeudes\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Mapping\Controllers\Map_belanja))
+#3 D:\laragon\www\siskeudes\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\siskeudes\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
